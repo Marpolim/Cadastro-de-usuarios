@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css" />
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <h1 class="title">Lista de tarefas</h1>
+    <table border="1" id="table">
+        <tr>
+            <td>Nome</td>
+            <td>Idade</td>
+            <td>endereço</td>
+            <td>Telefone</td>
+            <td>CPF</td>
+            <td>Rg</td>
+        </tr>
+        <tr>
+            <td>Joao</td>
+            <td>16</td>
+            <td>Rua cento e trinta e um</td>
+            <td>65999394265</td>
+            <td>154.058.194-04</td>
+            <td>321387-5</td>
+        </tr>
+    </table>
+    <ul>
+        <li class="list-item">Cadastrar o nome</li>
+        <li class="list-item">Cadastrar o idade</li>
+        <li class="list-item">Cadastrar o endereço</li>
+        <li class="list-item">Cadastrar o Telefone</li>
+        <li class="list-item">Cadastrar o CPF</li>
+        <li class="list-item">Cadastrar o Rg</li>
+    </ul>
+    <div>
+        <input type="text" 
+        id="task_name" 
+        name="task_name" 
+        placeholder="digite as informações" 
+        />
+        <button onclick="AddNewTask()">Adicionar</button>
+
+    </div>
+</body>
+
+</html>
